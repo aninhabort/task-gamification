@@ -1,3 +1,4 @@
+import Constants from 'expo-constants';
 import { StyleSheet, Text, View } from "react-native";
 
 export default function RewardScreen() {
@@ -14,6 +15,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#25292e",
     justifyContent: "center",
     alignItems: "center",
+    paddingTop: Constants.statusBarHeight
   },
   text: {
     color: "#fff"
